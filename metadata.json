@@ -1,0 +1,5 @@
+{
+  "name": "Autopilot AI Investor",
+  "description": "An AI-powered application to research stock and crypto markets, analyze public trading portfolios, and provide investment recommendations, similar to joinautopilot.com.",
+  "requestFramePermissions": []
+}

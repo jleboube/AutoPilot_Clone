@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: autopilot-ai-investor
+    build:
+      context: .
+      # Docker Compose will automatically find a .env file in this directory
+      # and substitute the values for the build arguments below.
+      args:
+        VITE_API_KEY: ${VITE_API_KEY}
+        VITE_GOOGLE_CLIENT_ID: ${VITE_GOOGLE_CLIENT_ID}
+    ports:
+      - "8080:80"
